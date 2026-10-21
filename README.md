@@ -95,11 +95,11 @@ A API sobe em `http://localhost:8082`.
 }
 ```
 
-### Livro — `/v1/livroos`
+### Livro — `/v1/livros`
 
 | Método | Rota | Descrição |
 |---|---|---|
-| GET | `/v1/livroos` | Lista todos os livros |
+| GET | `/v1/livros` | Lista todos os livros |
 | GET | `/v1/livroos/{id}` | Busca livro por id |
 | POST | `/v1/livroos` | Cadastra livro |
 | DELETE | `/v1/livroos/{id}` | Remove livro |
