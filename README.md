@@ -95,17 +95,17 @@ A API sobe em `http://localhost:8082`.
 }
 ```
 
-### Livro — `/v1/livros`
+### Livro — `/v1/livro`
 
 | Método | Rota | Descrição |
 |---|---|---|
-| GET | `/v1/livros` | Lista todos os livros |
-| GET | `/v1/livroos/{id}` | Busca livro por id |
-| POST | `/v1/livroos` | Cadastra livro |
-| DELETE | `/v1/livroos/{id}` | Remove livro |
+| GET | `/v1/livro` | Lista todos os livros |
+| GET | `/v1/livro/{id}` | Busca livro por id |
+| POST | `/v1/livro` | Cadastra livro |
+| DELETE | `/v1/livro/{id}` | Remove livro |
 
 ```json
-// POST /v1/livroos
+// POST /v1/livro
 {
   "titulo": "Clean Code",
   "autor": "Robert Martin",

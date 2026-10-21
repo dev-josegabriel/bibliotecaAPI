@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("v1/livros")
+@RequestMapping("v1/livro")
 @RequiredArgsConstructor
 public class LivroController {
     private final LivroService livroService;
